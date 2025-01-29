@@ -104,10 +104,27 @@ body .divi{
 .insta{
     background-color: #00A000;
 }
-.insta .quick{
+.insta .information{
     display: flex;
-    margin-top: 100px;
+}
+.insta .information .quick{
+    display: flex;
+    height: 500px;
     margin-left: 100px;
     flex-direction: column;
     gap: 20px;
+    background-color: #00A000;
+}
+.insta .information .quick .cima{
+    margin-top: 100px;
+    justify-content: center;
+}
+.insta .information .quick .baixo{
+    margin-top: 30px;
+}
+.insta .information .bold{
+    margin-top: 100px;
+    margin-left: 250px;
+    display: flex;
+    gap: 350px;
 }
