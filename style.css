@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body .divi{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.divi .links{
+    padding-top: 10px;
+    gap: 30px;
+}
+.divi .links a{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.divi .links .base:first-child{
+    color: #00A000;
+}
+.divi .botao{
+    display: flex;
+    width:80px;
+    height: 50px;
+    align-items: center;
+    padding-left: 25px;
+    text-decoration: none;
+}
+.divi .logar{
+    border-radius: 10px;
+    border: solid 1.7px #00A000;
+    padding: 10px 18px;
+    background-color: white;
+}
+.divi .login .logar .botao{
+    color: #00A000;
+    font-weight: bold;
+}
+.prato{
+    display: flex;
+    gap: 100px;
+}
+.prato .marke{
+    margin-left: 100px;
+    margin-top: 300px;
+    font-size: 38px;
+}
+.prato .marke .textao{
+    display: flex;
+    gap: 20px;
+}
+.prato .marke .textao .deliv:last-child{
+    color: #00A000;
+}
+.prato .marke .textaose{
+    display: flex;
+    gap: 20px;
+}
+.prato .marke .textaose .deli:first-child{
+    color: #00A000;
+}
+.prato .marke .textin{
+    margin-top: 40px;
+    width: 530px;
+    font-size: 20px;
+}
+.prato .marke .butons{
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+    width: 500px;
+    height: 70px;
+    text-decoration: none;
+}
+.butons .now{
+    border: solid 1px #00A000;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 20px;
+    color: white;
+    background-color: #00A000;
+    border-radius: 20px;
+}
+.butons .produc{
+    border: solid 1px #00A000;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 20px;
+    color: #00A000;
+    background-color: white;
+    border-radius: 20px;
+}
+.prato .image{
+    margin-top: 300px;
+}
