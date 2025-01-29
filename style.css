@@ -46,6 +46,7 @@ body .divi{
 .prato{
     display: flex;
     gap: 100px;
+    justify-content: space-around;
 }
 .prato .marke{
     margin-left: 100px;
@@ -98,5 +99,15 @@ body .divi{
     border-radius: 20px;
 }
 .prato .image{
-    margin-top: 300px;
+    margin-top: 250px;
+}
+.insta{
+    background-color: #00A000;
+}
+.insta .quick{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    flex-direction: column;
+    gap: 20px;
 }
