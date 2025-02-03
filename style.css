@@ -128,3 +128,25 @@ body .divi{
     display: flex;
     gap: 350px;
 }
+.insta .information .line1{
+    margin-top: 140px;
+    margin-left: 250px;
+    display: flex;
+    gap: 350px;
+}
+.companys{
+    display: flex;
+    flex-direction: column;
+}
+.insta .information .line2{
+    margin-top: 140px;
+    margin-left: 300px;
+    display: flex;
+    gap: 400px;
+}
+.insta .information .line3{
+    margin-top: 140px;
+    margin-left: 350px;
+    display: flex;
+    gap: 400px;
+}
