@@ -39,6 +39,13 @@ body .divi{
     padding: 10px 18px;
     background-color: white;
 }
+.divi .login .icon{
+    padding-top: -30px;
+}
+.divi .login {
+    display: flex;
+    align-items: center;
+}
 .divi .login .logar .botao{
     color: #00A000;
     font-weight: bold;
@@ -50,6 +57,7 @@ body .divi{
     border-width: 3px;
     border-style: dashed;
     border-color: gray;
+    margin-top: 50px;
 }
 .prato .marke{
     margin-left: 100px;
@@ -87,7 +95,9 @@ body .divi{
     border: solid 1px #00A000;
     text-decoration: none;
     font-size: 15px;
-    padding: 20px 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 22px;
     color: white;
     background-color: #00A000;
     border-radius: 20px;
@@ -96,7 +106,9 @@ body .divi{
     border: solid 1px #00A000;
     text-decoration: none;
     font-size: 15px;
-    padding: 20px 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 22px;
     color: #00A000;
     background-color: white;
     border-radius: 20px;
@@ -181,7 +193,7 @@ body .divi{
     margin-right: 100px;
 }
 .insta .reserved{
-    margin-top: 60px;
+    margin-top: 20px;
     margin-left: 45%;
     color: white;
 }
@@ -191,6 +203,7 @@ body .divi{
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 100px;
 }
 .why .choose .us{
     padding-left: 28%;
@@ -221,4 +234,227 @@ body .divi{
 .mais{
     font-size: 70px;
     margin-top: 20px;
+}
+.online .orders {
+    display: flex;
+    justify-content: center;
+}
+.happy .client {
+    display: flex;
+    justify-content: center;
+}
+.foods .available {
+    display: flex;
+    justify-content: center;
+}
+.dishes{
+    margin-top: 300px;
+}
+.dishes .what{
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+}
+.dishes .rowzao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+.rowzao .saladon .fila .nome{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.rowzao .saladon .fila .tentro{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(66, 61, 61);
+}
+.rowzao .saladon .fila .buy{
+    background-color: #00A000;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+}
+.rowzao .saladone .nomo{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.rowzao .saladone .filao .prestigio{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(66, 61, 61);
+}
+.rowzao .saladone .filao .compre{
+    background-color: #00A000;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+}
+.your .about .us {
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.your {
+    margin-top: 200px;
+}
+.your .about .custumer {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(66, 61, 61);;
+}
+.your .pessoas{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.your .pessoas .vermelho{
+    width: 250px;
+    height: 400px;
+}
+.your .pessoas .vermelho img{
+    padding-left: 50px;
+}
+.your .pessoas .roxo img{
+    padding-left: 50px;
+}
+.your .pessoas .cinza img{
+    padding-left: 50px;
+}
+.your .pessoas .roxo{
+    width: 250px;
+    height: 400px;
+}
+.your .pessoas .cinza{
+    width: 250px;
+    height: 400px;
+}
+.pessoas .jane{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.your .pessoas .exp{
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.churras {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.churras .churrasco {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 700px;
+    gap: 100px;
+    margin-right: 500px;
+}
+.churras .churrasco .textoes{
+    display: flex;
+    flex-direction: column;
+}
+.churras .churrasco .denovo{
+    font-size: 38px;
+
+}
+.churras .churrasco .best{
+    margin-top: 20px;
+    font-size: 16px;
+    width: 350px;
+}
+.churras .churrasco .learn{
+    background-color: #00A000;
+    margin-top: 20px;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.procura{
+    display: flex;
+    justify-content: center;
+}
+.procura .acabando{
+    display: flex;
+    flex-direction: column;
+}
+.procura .acabando .increva{
+    margin-top: 10px;
+    font-size: 44px;
+}
+.procura .acabando .finalmente{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+.procura .acabando .search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.procura .acabando .search .acabou{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    border: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.procura .acabando .search .acabou .dentro{
+    border: 1px solid #00A000;
+    border-radius: 10px;
+    background-color: #00A000;
+    font-size: 18px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
